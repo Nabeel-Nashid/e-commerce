@@ -13,7 +13,7 @@ function Iconbar() {
           <MdVerified className="w-10 h-10" />
         </div>
         <div className="flex justify-around text-xs sm:text-lg mt-5 font-maven font-extrabold">
-          <p>EASY EXCHANGE</p>
+          <p>EASY EXCHANGES</p>
           <p>100% HANDPICKED</p>
           <p>ASSURED QUALITY</p>
         </div>

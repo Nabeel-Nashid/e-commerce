@@ -7,7 +7,6 @@ import SimilarProduct from "./SimilarProduct";
 import RecentViewed from "./RecentViewed";
 import Iconbar from "./Iconbar";
 
-
 function ProductSingle() {
   return (
     <div className=" h-screen w-full  bg-[#ffffff] text-black ">
@@ -77,13 +76,10 @@ function ProductSingle() {
       </div>
       <SimilarProduct />
       <RecentViewed />
-      <Iconbar/>
+      <Iconbar />
       <Footer />
     </div>
   );
 }
 
 export default ProductSingle;
-
-
-
