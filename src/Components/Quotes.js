@@ -3,7 +3,7 @@ import women from "../asset/women2.jpg";
 
 function Quotes() {
   return (
-    <div className=" h-screen w-full  bg-[#ffffff] text-black ">
+    <div className=" h-screen w-full  bg-[#ffffff] text-black">
       <div className="max-w-[1200px] mx-auto flex flex-col w-full h-screen justify-center overflow-y-auto">
         <div className="grid md:grid-cols-2 bg-[#faeeef] h-[80%]">
           <div className="flex">

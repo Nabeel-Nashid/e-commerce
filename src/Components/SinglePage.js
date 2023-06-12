@@ -7,6 +7,7 @@ import PopularCollection from './PopularCollection'
 import Quotes from './Quotes'
 import Footer from './Footer'
 import FeaturedCollection from './FeaturedCollection'
+import Services from './Services'
 
 
 function SinglePage() {
@@ -16,6 +17,7 @@ function SinglePage() {
       <Banner />
       <BannerContent />
       <FeaturedCollection />
+      {/* <Services/> */}
       <PopularCollection />
       <Quotes />
       <Instagram/>
