@@ -10,6 +10,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/product" element={<ProductSingle />} />
+          <Route path="/e-commerce" element={<ProductSingle />} />
+
           <Route path="/" element={<SinglePage />} />
         </Routes>
       </BrowserRouter>
