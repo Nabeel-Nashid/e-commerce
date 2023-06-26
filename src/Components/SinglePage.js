@@ -16,7 +16,7 @@ function SinglePage() {
       <Header/>
       <Banner />
       <BannerContent />
-      <FeaturedCollection />
+      {/* <FeaturedCollection /> */}
       {/* <Services/> */}
       <PopularCollection />
       <Quotes />
