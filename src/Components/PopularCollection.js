@@ -9,7 +9,7 @@ function PopularCollection() {
   return (
     <div className=" h-screen w-full  bg-[#ffffff] text-black ">
       <div className="max-w-[1200px] mx-auto flex flex-col h-screen overflow-y-auto">
-        <h6 className="font-architecture text-7xl text-center mb-10">
+        <h6 className="font-architecture sm:text-7xl text-4xl text-center mb-10">
           Popular Collection
         </h6>
         <div class="grid md:grid-cols-4 grid-cols-2 px-3 gap-4 items-center">

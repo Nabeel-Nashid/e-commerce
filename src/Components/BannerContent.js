@@ -5,7 +5,7 @@ function BannerContent() {
   return (
     <div className=" h-screen w-full  bg-[#ffffff] text-black ">
       <div className="max-w-[1200px] mx-auto flex flex-col h-screen justify-center">
-        <h6 className="font-architecture text-7xl text-center mb-5">What We Do</h6>
+        <h6 className="font-architecture sm:text-7xl text-4xl text-center mb-5">What We Do</h6>
         <div className="w-[50%] mx-auto">
           <p className="font-maven font-semibold text-center text-slate-400">
             Brisa is a leading edge fashion footwear specialist, providing style

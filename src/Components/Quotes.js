@@ -6,18 +6,18 @@ function Quotes() {
     <div className=" h-screen w-full  bg-[#ffffff] text-black">
       <div className="max-w-[1200px] mx-auto flex flex-col w-full h-screen justify-center overflow-y-auto">
         <div className="grid md:grid-cols-2 bg-[#faeeef] h-[80%]">
-          <div className="flex">
+          <div className="sm:flex flex justify-center pt-5">
             <div className="hidden md:block">
-              <div className="w-9 h-9 bg-white"></div>
-              <div className="w-9 h-9 bg-white ml-9"></div>
+              <div className="w-9 h-9 bg-[#faf2f0]"></div>
+              <div className="w-9 h-9 bg-[#faf2f0] ml-9"></div>
             </div>
-            <div className="flex justify-center items-center relative">
-              <div className="w-96">
+            <div className="md:flex justify-center md:items-center relative">
+              <div className="sm:w-96 w-64">
                 <img src={women} className="" />
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center relative">
+          <div className="flex flex-col sm:justify-center relative items-center">
             <div className="hidden md:block absolute top-20 left-[80%] float-right">
               <div className="w-9 h-9 bg-[#faf2f0]"></div>
               <div className="w-16 h-16 bg-[#faf2f0] ml-9"></div>
@@ -31,7 +31,7 @@ function Quotes() {
               you came into being as a business, your mission and vision, your
               aim, and maybe something about your future goals too.
             </p>
-            <h3 className="text-4xl mt-10 font-architecture">Julia Crawfall</h3>
+            <h3 className="text-2xl mt-10 font-architecture">-Julia Crawfall</h3>
             <div className="hidden md:block absolute bottom-0 right-0">
               <div className="w-9 h-9 bg-white"></div>
               <div className="w-9 h-9 bg-white ml-9"></div>

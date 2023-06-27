@@ -9,11 +9,11 @@ const Banner = () => {
       <div className="max-w-[1200px] mx-auto flex flex-col w-full h-[80%] justify-center overflow-y-auto">
         <div class="grid md:grid-cols-2 h-screen md:overflow-hidden">
           <div class="flex  bg-[#e1ecf4]">
-            <div>
+            <div className="hidden md:block">
               <div className="w-9 h-9 bg-white"></div>
               <div className="w-9 h-9 bg-white ml-9"></div>
             </div>
-            <div class="max-w-md mx-auto px-4 mt-16 items-center justify-center">
+            <div class="max-w-md mx-auto px-4 mt-24 items-center justify-center">
               <h1 class="text-l mb-4 font-semibold font-maven">Just Droped</h1>
               <p class="text-7xl mb-1 font-architecture">Feel</p>
               <p class="text-7xl mb-1 font-architecture">Authentic</p>
